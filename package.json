@@ -1,6 +1,6 @@
 {
   "name": "@nearmap/eslint-config-react",
-  "version": "0.0.0-semantically-released",
+  "version": "1.0.1",
   "description": "React eslint configuration.",
   "main": "index.js",
   "scripts": {
