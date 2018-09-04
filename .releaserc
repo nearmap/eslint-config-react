@@ -1,0 +1,6 @@
+{
+  "branch": "add-config",
+  "dryRun": false,
+  "debug": true,
+  "pkgRoot": "."
+}

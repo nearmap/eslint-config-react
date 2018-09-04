@@ -1,0 +1,35 @@
+{
+  "name": "@nearmap/eslint-config-react",
+  "version": "0.0.0-semantically-released",
+  "description": "React eslint configuration.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nearmap/eslint-config-react.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Jan Klaas Kollhof <jan@kollhof.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nearmap/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/nearmap/eslint-config-react#readme",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "devDependencies": {
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "semantic-release": "^15.9.12"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
