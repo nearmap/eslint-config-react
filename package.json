@@ -3,6 +3,9 @@
   "version": "0.0.0-semantically-released",
   "description": "React eslint configuration.",
   "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js ."
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/nearmap/eslint-config-react.git"
@@ -22,7 +25,12 @@
   "devDependencies": {
     "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.5.0",
     "semantic-release": "^15.9.12"
+  },
+  "dependencies": {
+    "@nearmap/eslint-config-base": "^1.0.1",
+    "eslint-plugin-react": "^7.11.1"
   },
   "config": {
     "commitizen": {

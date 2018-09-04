@@ -1,39 +1,40 @@
+// eslint-disable-next-line no-undef
 module.exports = {
-  'extends': [
+  extends: [
     'plugin:react/recommended',
     '@nearmap/eslint-config-base'
   ],
 
-  'parser': 'babel-eslint',
-  'parserOptions': {
-    'ecmaVersion': 2018,
-    'sourceType': 'module',
-    'ecmaFeatures': {
-      'jsx': true,
-      'impliedStrict': true
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+      impliedStrict: true
     }
   },
 
-  'plugins': ['babel', 'react'],
+  plugins: ['babel', 'react'],
 
-  'rules': {
+  rules: {
     /* annoying to have to escape  */
     'react/no-unescaped-entities': 'off',
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-wrap-multilines': ['error'],
-    'react/jsx-tag-spacing': ['error', {'beforeSelfClosing': 'always'}],
+    'react/jsx-tag-spacing': ['error', {beforeSelfClosing: 'always'}],
 
     'react/jsx-pascal-case': ['error'],
     'react/jsx-no-target-blank': ['error'],
     'react/jsx-no-comment-textnodes': ['error'],
-    'react/jsx-no-duplicate-props': ['error', {'ignoreCase': true}],
+    'react/jsx-no-duplicate-props': ['error', {ignoreCase: true}],
     // not sure about using <p>{'spam'}</p>
     // 'react/jsx-no-literals': ['error'],
     'react/jsx-no-bind': ['error', {
-      'ignoreRefs': false,
-      'allowArrowFunctions': true,
-      'allowBind': false
+      ignoreRefs: false,
+      allowArrowFunctions: true,
+      allowBind: false
     }],
     // 'react/jsx-key': ['error'],
     'react/jsx-handler-names': ['error'],
