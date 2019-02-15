@@ -15,7 +15,7 @@ module.exports = {
     }
   },
 
-  plugins: ['babel', 'react'],
+  plugins: ['babel', 'react', 'react-hooks'],
 
   rules: {
     /* annoying to have to escape  */
@@ -40,6 +40,7 @@ module.exports = {
     'react/jsx-handler-names': ['error'],
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
     'react/jsx-equals-spacing': ['error', 'never'],
-    'react/jsx-curly-spacing': [2, 'never']
+    'react/jsx-curly-spacing': [2, 'never'],
+    'react-hooks/rules-of-hooks': 'error'
   }
 };
