@@ -12,9 +12,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/nearmap/eslint-config-react.git"
   },
-  "keywords": [
-    "eslint"
-  ],
+  "keywords": ["eslint"],
   "author": "Jan Klaas Kollhof <jan@kollhof.net>",
   "license": "MIT",
   "bugs": {
@@ -28,14 +26,14 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "commitizen": "^2.10.1",
+    "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.5.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-react-hooks": "^1.0.2",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
     "npx-run": "^2.1.2",
-    "semantic-release": "^15.9.12"
+    "semantic-release": "latest"
   },
   "dependencies": {
     "@nearmap/eslint-config-base": "^1.1.0"
@@ -47,5 +45,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "resolutions": {
+    "node-gyp": ">=4.0.0",
+    "fstream": ">=1.0.12"
   }
 }
