@@ -15,6 +15,12 @@ module.exports = {
   plugins: ['babel', 'react', 'react-hooks'],
 
   rules: {
+    'max-len': [
+      'error', {
+        code: 120
+      }
+    ],
+
     /* annoying to have to escape  */
     'react/no-unescaped-entities': 'off',
     'react/jsx-indent': ['error', 2],
