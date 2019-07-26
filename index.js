@@ -16,8 +16,7 @@ module.exports = {
 
   rules: {
     'max-len': [
-      'error',
-      {
+      'error', {
         code: 120
       }
     ],
